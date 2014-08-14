@@ -7,7 +7,7 @@ public class Addition {
 
 
     public static double perform(double... doubleNumbers) {
-        double temp=0,integer_result = 0;
+        double integer_result = 0;
         for (double individualElement : doubleNumbers)
             integer_result += individualElement;
         return integer_result;
